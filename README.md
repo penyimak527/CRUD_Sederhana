@@ -1,47 +1,63 @@
-TodoList (CRUD Sederhana) ✨
-Aplikasi web sederhana berbasis PHP murni untuk mengelola daftar tugas pribadi dengan fungsi CRUD (Create, Read, Update, Delete). Repository ini berada di folder crud_sederhana. Penggunaan proyek ini memerlukan izin terlebih dahulu dari pencipta. 📝
+# TodoList (CRUD Sederhana) ✨
 
-Fitur 📋
+Aplikasi web sederhana berbasis PHP murni untuk mengelola daftar tugas pribadi dengan fungsi CRUD (Create, Read, Update, Delete). Repository ini berada di folder `crud_sederhana`. **Penggunaan proyek ini memerlukan izin terlebih dahulu dari pencipta**. 📝
 
-✅ Tambah tugas baru
-✅ Lihat daftar tugas
-✅ Edit tugas
-✅ Hapus tugas
+---
 
+## Fitur 📋
 
-Prasyarat 🛠️
+- ✅ Tambah tugas baru
+- ✅ Lihat daftar tugas
+- ✅ Edit tugas
+- ✅ Hapus tugas
 
-PHP 7.4 atau lebih baru
-Server lokal (misalnya XAMPP, WAMP, atau Laragon)
-MySQL
-Web browser (Chrome, Firefox, dll.)
+---
 
+## Prasyarat 🛠️
 
-Instalasi 🚀
-1. Clone Repository
+- PHP 7.4 atau lebih baru
+- Server lokal (misalnya XAMPP, WAMP, atau Laragon)
+- MySQL
+- Web browser (Chrome, Firefox, dll.)
+
+---
+
+## Instalasi 🚀
+
+### 1. Clone Repository
+
+```bash
 git clone https://github.com/username/todolist.git
+```
 
-2. Masuk ke Direktori
+### 2. Masuk ke Direktori
+
+```bash
 cd crud_sederhana
+```
 
-3. Konfigurasi Database
+### 3. Konfigurasi Database
 
-Buat database di MySQL.
-Impor file SQL dari folder database/.
-Edit koneksi.php untuk mengatur koneksi database.
+- Buat database di MySQL.
+- Impor file SQL dari folder `database/`.
+- Edit `koneksi.php` untuk mengatur koneksi database.
 
-4. Jalankan Aplikasi
+### 4. Jalankan Aplikasi
 
-Salin folder crud_sederhana ke direktori server (misalnya htdocs pada XAMPP).
-Jalankan server lokal:
+- Salin folder `crud_sederhana` ke direktori server (misalnya `htdocs` pada XAMPP).
+- Jalankan server lokal:
 
+```bash
 php -S localhost:8000
+```
 
+- Buka [http://localhost:8000](http://localhost:8000) di browser.
 
-Buka http://localhost:8000 di browser.
+---
 
+## Struktur Folder 📂
 
-Struktur Folder 📂
+```
 crud_sederhana/
 ├── assets/             # File CSS/JS (jika ada, menggunakan Bootstrap)
 ├── controller/         # Logika kontrol (misalnya delete.php, edit.php, tambah.php)
@@ -49,44 +65,30 @@ crud_sederhana/
 ├── koneksi.php         # File koneksi database
 ├── page/               # Halaman PHP (edit.php, tambah.php, index.php)
 ├── README.md           # Panduan ini
+```
 
+---
 
-Cara Penggunaan 🖱️
+## Cara Penggunaan 🖱️
 
-Tambah Tugas: Isi form di tambah.php, lalu simpan.
-Lihat Tugas: Buka index.php untuk daftar tugas.
-Edit Tugas: Gunakan edit.php untuk mengubah tugas.
-Hapus Tugas: Klik opsi hapus di index.php via delete.php.
+1. **Tambah Tugas**: Isi form di `tambah.php`, lalu simpan.
+2. **Lihat Tugas**: Buka `index.php` untuk daftar tugas.
+3. **Edit Tugas**: Gunakan `edit.php` untuk mengubah tugas.
+4. **Hapus Tugas**: Klik opsi hapus di `index.php` via `delete.php`.
 
+---
 
-Teknologi 💻
+## Teknologi 💻
 
-Frontend: HTML, CSS (opsional, menggunakan Bootstrap)
-Backend: PHP murni
-Database: MySQL
+- **Frontend**: HTML, CSS (opsional, menggunakan Bootstrap)
+- **Backend**: PHP murni
+- **Database**: MySQL
 
+---
 
-Kontribusi 🤝
-Penggunaan untuk tujuan pribadi atau publik membutuhkan izin dari pencipta. Untuk kontribusi:
+## Lisensi 📜
 
-Fork repository.
-Buat branch:
+[MIT License](LICENSE)  
+**Harus izin terlebih dahulu jika ingin menggunakan untuk publik.**
 
-git checkout -b fitur-baru
-
-
-Commit perubahan:
-
-git commit -m "Tambah fitur"
-
-
-Push branch:
-
-git push origin fitur-baru
-
-
-Buat Pull Request setelah mendapatkan izin.
-
-
-Lisensi 📜
-MIT LicenseHarus izin terlebih dahulu jika ingin menggunakan untuk publik.
+---
