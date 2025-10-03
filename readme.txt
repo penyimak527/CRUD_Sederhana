@@ -90,8 +90,3 @@ Buat Pull Request setelah mendapatkan izin.
 
 Lisensi
 MIT LicenseHarus izin terlebih dahulu jika ingin menggunakan untuk publik.
-
-Kontak
-
-Email: your-email@example.com
-GitHub: username
